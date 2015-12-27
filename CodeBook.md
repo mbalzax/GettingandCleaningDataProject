@@ -14,12 +14,12 @@ www.smartlab.ws
 
 ### Code Book for the course project : Getting and Cleaning Data
 
-1 Data file : With 180 observations on the following 69 variables:
+#### 1 Data file : With 180 observations on the following 69 variables:
 
-**Variable Name    |           Variable Class**
-----------------------------------------------  
-  subject                   |  numeric vector
-  cod_act                   |  numeric vector
+**Variable Name | Variable Class**
+----------------|----------------  
+  subject  |  numeric vector
+  cod_act   |  numeric vector
   activity                  |  character vector
   tBodyAcc-mean()-X         |  numeric vector
   tBodyAcc-mean()-Y         |  numeric vector
