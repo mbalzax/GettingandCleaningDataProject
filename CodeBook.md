@@ -16,7 +16,8 @@ www.smartlab.ws
 
 1 Data file : With 180 observations on the following 69 variables:
 
-Variable Name               Variable Class
+* Variable Name               Variable Class*
+  
   subject                     numeric vector
   cod_act                     numeric vector
   activity                    character vector
