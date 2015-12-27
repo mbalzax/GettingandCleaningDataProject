@@ -7,8 +7,6 @@ run_analysis <- function ()
   library(dplyr)
   library(data.table)
   
-  #Setting the working directory
-  setwd("C:\\Users\\DataScienceMBX_VM\\Desktop\\Data Science\\Course3\\Project")
 
   #Reading the data files from de UCI HAR Dataset directory 
   dffea<-read.table("UCI HAR Dataset\\features.txt" , stringsAsFactors = FALSE)
