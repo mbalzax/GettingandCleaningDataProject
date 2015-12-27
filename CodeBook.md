@@ -18,83 +18,83 @@ www.smartlab.ws
 
 Variable Name | Variable Class
 ----------------|----------------  
-  subject  |  numeric vector
-  cod_act   |  numeric vector
-  activity                  |  character vector
-  tBodyAcc-mean()-X         |  numeric vector
-  tBodyAcc-mean()-Y         |  numeric vector
-  tBodyAcc-mean()-Z         |  numeric vector
-  tGravityAcc-mean()-X      |  numeric vector
-  tGravityAcc-mean()-Y      |  numeric vector
-  tGravityAcc-mean()-Z      |  numeric vector
-  tBodyAccJerk-mean()-X     |  numeric vector
-  tBodyAccJerk-mean()-Y     |  numeric vector
-  tBodyAccJerk-mean()-Z     |  numeric vector
-  tBodyGyro-mean()-X        |  numeric vector
-  tBodyGyro-mean()-Y        |  numeric vector
-  tBodyGyro-mean()-Z        |  numeric vector
-  tBodyGyroJerk-mean()-X    |  numeric vector
-  tBodyGyroJerk-mean()-Y    |  numeric vector
-  tBodyGyroJerk-mean()-Z    |  numeric vector
-  tBodyAccMag-mean()        |  numeric vector
-  tGravityAccMag-mean()     |  numeric vector
-  tBodyAccJerkMag-mean()    |  numeric vector
-  tBodyGyroMag-mean()       |  numeric vector
-  tBodyGyroJerkMag-mean()   |  numeric vector
-  fBodyAcc-mean()-X         |  numeric vector
-  fBodyAcc-mean()-Y         |  numeric vector
-  fBodyAcc-mean()-Z         |  numeric vector
-  fBodyAccJerk-mean()-X     |  numeric vector
-  fBodyAccJerk-mean()-Y     |  numeric vector
-  fBodyAccJerk-mean()-Z     |  numeric vector
-  fBodyGyro-mean()-X        |  numeric vector
-  fBodyGyro-mean()-Y        |  numeric vector
-  fBodyGyro-mean()-Z        |  numeric vector
-  fBodyAccMag-mean()        |  numeric vector
-  fBodyBodyAccJerkMag-mean() | numeric vector
-  fBodyBodyGyroMag-mean()    | numeric vector
-  fBodyBodyGyroJerkMag-mean() | numeric vector
-  tBodyAcc-std()-X           |  numeric vector
-  tBodyAcc-std()-Y          |  numeric vector
-  tBodyAcc-std()-Z          |  numeric vector
-  tGravityAcc-std()-X       |  numeric vector
-  tGravityAcc-std()-Y       |  numeric vector
-  tGravityAcc-std()-Z       |  numeric vector
-  tBodyAccJerk-std()-X      |  numeric vector
-  tBodyAccJerk-std()-Y      |  numeric vector
-  tBodyAccJerk-std()-Z      |  numeric vector
-  tBodyGyro-std()-X         |  numeric vector
-  tBodyGyro-std()-Y         |  numeric vector
-  tBodyGyro-std()-Z         |  numeric vector
-  tBodyGyroJerk-std()-X     |  numeric vector
-  tBodyGyroJerk-std()-Y     |  numeric vector
-  tBodyGyroJerk-std()-Z     |  numeric vector
-  tBodyAccMag-std()         |  numeric vector
-  tGravityAccMag-std()      |  numeric vector
-  tBodyAccJerkMag-std()     |  numeric vector
-  tBodyGyroMag-std()        |  numeric vector
-  tBodyGyroJerkMag-std()    |  numeric vector
-  fBodyAcc-std()-X          |  numeric vector
-  fBodyAcc-std()-Y          |  numeric vector
-  fBodyAcc-std()-Z          |  numeric vector
-  fBodyAccJerk-std()-X      |  numeric vector
-  fBodyAccJerk-std()-Y      |  numeric vector
-  fBodyAccJerk-std()-Z      |  numeric vector
-  fBodyGyro-std()-X         |  numeric vector
-  fBodyGyro-std()-Y         |  numeric vector
-  fBodyGyro-std()-Z         |  numeric vector
-  fBodyAccMag-std()         |  numeric vector
-  fBodyBodyAccJerkMag-std() |  numeric vector
-  fBodyBodyGyroMag-std()    |  numeric vector
-  fBodyBodyGyroJerkMag-std()  | numeric vector
+  subject  |  numeric vector | code of the subject
+  cod_act   |  numeric vector | code for the activity meassured
+  activity                  |  character vector  | Description of the activity
+  tBodyAcc-mean()-X         |  numeric vector | average of the observations by subject and activity 
+  tBodyAcc-mean()-Y         |  numeric vector | average of the observations by subject and activity
+  tBodyAcc-mean()-Z         |  numeric vector | average of the observations by subject and activity
+  tGravityAcc-mean()-X      |  numeric vector | average of the observations by subject and activity
+  tGravityAcc-mean()-Y      |  numeric vector | average of the observations by subject and activity
+  tGravityAcc-mean()-Z      |  numeric vector | average of the observations by subject and activity
+  tBodyAccJerk-mean()-X     |  numeric vector | average of the observations by subject and activity
+  tBodyAccJerk-mean()-Y     |  numeric vector | average of the observations by subject and activity
+  tBodyAccJerk-mean()-Z     |  numeric vector | average of the observations by subject and activity
+  tBodyGyro-mean()-X        |  numeric vector | average of the observations by subject and activity
+  tBodyGyro-mean()-Y        |  numeric vector | average of the observations by subject and activity
+  tBodyGyro-mean()-Z        |  numeric vector | average of the observations by subject and activity
+  tBodyGyroJerk-mean()-X    |  numeric vector | average of the observations by subject and activity
+  tBodyGyroJerk-mean()-Y    |  numeric vector | average of the observations by subject and activity
+  tBodyGyroJerk-mean()-Z    |  numeric vector | average of the observations by subject and activity
+  tBodyAccMag-mean()        |  numeric vector | average of the observations by subject and activity
+  tGravityAccMag-mean()     |  numeric vector | average of the observations by subject and activity
+  tBodyAccJerkMag-mean()    |  numeric vector | average of the observations by subject and activity
+  tBodyGyroMag-mean()       |  numeric vector | average of the observations by subject and activity
+  tBodyGyroJerkMag-mean()   |  numeric vector | average of the observations by subject and activity
+  fBodyAcc-mean()-X         |  numeric vector | average of the observations by subject and activity
+  fBodyAcc-mean()-Y         |  numeric vector | average of the observations by subject and activity
+  fBodyAcc-mean()-Z         |  numeric vector | average of the observations by subject and activity
+  fBodyAccJerk-mean()-X     |  numeric vector | average of the observations by subject and activity
+  fBodyAccJerk-mean()-Y     |  numeric vector | average of the observations by subject and activity
+  fBodyAccJerk-mean()-Z     |  numeric vector | average of the observations by subject and activity
+  fBodyGyro-mean()-X        |  numeric vector | average of the observations by subject and activity
+  fBodyGyro-mean()-Y        |  numeric vector | average of the observations by subject and activity
+  fBodyGyro-mean()-Z        |  numeric vector | average of the observations by subject and activity
+  fBodyAccMag-mean()        |  numeric vector | average of the observations by subject and activity
+  fBodyBodyAccJerkMag-mean() | numeric vector | average of the observations by subject and activity
+  fBodyBodyGyroMag-mean()    | numeric vector | average of the observations by subject and activity
+  fBodyBodyGyroJerkMag-mean() | numeric vector | average of the observations by subject and activity
+  tBodyAcc-std()-X           |  numeric vector | average of the observations by subject and activity
+  tBodyAcc-std()-Y          |  numeric vector | average of the observations by subject and activity
+  tBodyAcc-std()-Z          |  numeric vector | average of the observations by subject and activity
+  tGravityAcc-std()-X       |  numeric vector | average of the observations by subject and activity
+  tGravityAcc-std()-Y       |  numeric vector | average of the observations by subject and activity
+  tGravityAcc-std()-Z       |  numeric vector | average of the observations by subject and activity
+  tBodyAccJerk-std()-X      |  numeric vector | average of the observations by subject and activity
+  tBodyAccJerk-std()-Y      |  numeric vector | average of the observations by subject and activity
+  tBodyAccJerk-std()-Z      |  numeric vector | average of the observations by subject and activity
+  tBodyGyro-std()-X         |  numeric vector | average of the observations by subject and activity
+  tBodyGyro-std()-Y         |  numeric vector | average of the observations by subject and activity
+  tBodyGyro-std()-Z         |  numeric vector | average of the observations by subject and activity
+  tBodyGyroJerk-std()-X     |  numeric vector | average of the observations by subject and activity
+  tBodyGyroJerk-std()-Y     |  numeric vector | average of the observations by subject and activity
+  tBodyGyroJerk-std()-Z     |  numeric vector | average of the observations by subject and activity
+  tBodyAccMag-std()         |  numeric vector | average of the observations by subject and activity
+  tGravityAccMag-std()      |  numeric vector | average of the observations by subject and activity
+  tBodyAccJerkMag-std()     |  numeric vector | average of the observations by subject and activity
+  tBodyGyroMag-std()        |  numeric vector | average of the observations by subject and activity
+  tBodyGyroJerkMag-std()    |  numeric vector | average of the observations by subject and activity
+  fBodyAcc-std()-X          |  numeric vector | average of the observations by subject and activity
+  fBodyAcc-std()-Y          |  numeric vector | average of the observations by subject and activity
+  fBodyAcc-std()-Z          |  numeric vector | average of the observations by subject and activity
+  fBodyAccJerk-std()-X      |  numeric vector | average of the observations by subject and activity
+  fBodyAccJerk-std()-Y      |  numeric vector | average of the observations by subject and activity
+  fBodyAccJerk-std()-Z      |  numeric vector | average of the observations by subject and activity
+  fBodyGyro-std()-X         |  numeric vector | average of the observations by subject and activity
+  fBodyGyro-std()-Y         |  numeric vector | average of the observations by subject and activity
+  fBodyGyro-std()-Z         |  numeric vector | average of the observations by subject and activity
+  fBodyAccMag-std()         |  numeric vector | average of the observations by subject and activity
+  fBodyBodyAccJerkMag-std() |  numeric vector | average of the observations by subject and activity
+  fBodyBodyGyroMag-std()    |  numeric vector | average of the observations by subject and activity
+  fBodyBodyGyroJerkMag-std()  | numeric vector | average of the observations by subject and activity
 
 
 
 ## Transformations
 
-### From the original Data sets :
-1. Merge the training and the test sets to create one data set.
-2. Extract only the measurements on the mean and standard deviation for each measurement.
+### Applied to the original Data sets 
+1. Merge the training and the test sets
+2. Select the measurements on the mean and standard deviation for each measurement.
 3. Asign descriptive activity names (activity labels) to name the activities in the data set
 4. Asign labels to the variable columns (feature names).
-5. Write a new data set with the average of each variable for each activity and each subject.
+5. Write a new data set with the average of each variable for each activity and subject.
