@@ -16,7 +16,7 @@ www.smartlab.ws
 
 #### 1 Data file : With 180 observations on the following 69 variables:
 
-**Variable Name | Variable Class**
+Variable Name | Variable Class
 ----------------|----------------  
   subject  |  numeric vector
   cod_act   |  numeric vector
@@ -87,3 +87,14 @@ www.smartlab.ws
   fBodyBodyAccJerkMag-std() |  numeric vector
   fBodyBodyGyroMag-std()    |  numeric vector
   fBodyBodyGyroJerkMag-std()  | numeric vector
+
+
+
+## Transformations
+
+### From the original Data sets :
+1. Merge the training and the test sets to create one data set.
+2. Extract only the measurements on the mean and standard deviation for each measurement.
+3. Asign descriptive activity names (activity labels) to name the activities in the data set
+4. Asign labels to the variable columns (feature names).
+5. Write a new data set with the average of each variable for each activity and each subject.
