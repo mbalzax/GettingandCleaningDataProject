@@ -88,6 +88,9 @@ Variable Name | Variable Class | Description
   fBodyBodyGyroMag-std()    |  numeric vector | average of the observations by subject and activity
   fBodyBodyGyroJerkMag-std()  | numeric vector | average of the observations by subject and activity
 
+## Units
+
+Variables are normalized and bounded within [-1,1]
 
 
 ## Transformations
