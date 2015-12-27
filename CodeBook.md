@@ -16,19 +16,19 @@ www.smartlab.ws
 
 1 Data file : With 180 observations on the following 69 variables:
 
-**Variable Name               Variable Class**
-  
-1.  subject                     numeric vector
-2.  cod_act                     numeric vector
-3.  activity                    character vector
-4.  tBodyAcc-mean()-X           numeric vector
-5.  tBodyAcc-mean()-Y           numeric vector
-  tBodyAcc-mean()-Z           numeric vector
-  tGravityAcc-mean()-X        numeric vector
-  tGravityAcc-mean()-Y        numeric vector
-  tGravityAcc-mean()-Z        numeric vector
-  tBodyAccJerk-mean()-X       numeric vector
-  tBodyAccJerk-mean()-Y       numeric vector
+**Variable Name    |           Variable Class**
+----------------------------------------------  
+  subject                   |  numeric vector
+  cod_act                   |  numeric vector
+  activity                  |  character vector
+  tBodyAcc-mean()-X         |  numeric vector
+  tBodyAcc-mean()-Y         |  numeric vector
+  tBodyAcc-mean()-Z         |  numeric vector
+  tGravityAcc-mean()-X      |  numeric vector
+  tGravityAcc-mean()-Y      |  numeric vector
+  tGravityAcc-mean()-Z      |  numeric vector
+  tBodyAccJerk-mean()-X     |  numeric vector
+  tBodyAccJerk-mean()-Y     |  numeric vector
   tBodyAccJerk-mean()-Z       numeric vector
   tBodyGyro-mean()-X          numeric vector
   tBodyGyro-mean()-Y          numeric vector
