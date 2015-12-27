@@ -17,7 +17,7 @@ The structure of the resulting tidy data set can be found in the Code book inclu
 3. Make sure that the dplyr library is installed before running the run_analysis function.
 3. Load the script run_analysis.R
 4. Execute the function run_analysis() 
-5. The resulting data set file will be created in tihe working directory: tidyDataSet.txt
+5. The resulting data set file will be created in the R working directory: tidyDataSet.txt
 
 
 #### License:
